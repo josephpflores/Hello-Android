@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#65D2F1">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:contentDescription="@string/udacity"
+            android:scaleType="centerCrop"
+            android:src="@drawable/udacity" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/udacity"
+            android:textColor="@android:color/black"
+            android:textSize="28sp"
+            android:padding="16dp"/>
+
+        <TextView
+            android:id="@+id/street"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:autoLink="map"
+            android:text="@string/_2465_latham_st"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:padding="16dp"/>
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:autoLink="phone"
+            android:text="@string/phone"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:padding="16dp"/>
+
+        <TextView
+            android:id="@+id/web_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:autoLink="web"
+            android:text="@string/web_address"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:padding="16dp" />
+    </LinearLayout>
+</ScrollView>
